@@ -1,0 +1,89 @@
+/* 抬头 */
+.title {
+    width: 100%;
+    height: 70px;
+    text-align: center;
+    font-size: 40px;
+}
+
+/* 主页 */
+#body {
+    background-color: rgb(34, 39, 46);
+    color: rgb(173, 186, 199);
+}
+
+/* 卡片组 */
+.tab_bank {
+    display: flex;
+    width: 100%;
+}
+
+/* 卡片样式 */
+.tab_control {
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 15px;
+    border-style: outset;
+    cursor: pointer;
+}
+
+/* 卡片尺寸 */
+.tab_size {
+    height: 80px;
+    font-size: 40px;
+    line-height: 75px;
+}
+
+/* 分割线样式 */
+.fgx {
+    height: 2px;
+}
+
+/* 蓝色调 */
+.bcb {
+    background-color: rgb(143, 206, 195);
+    color: rgb(34, 39, 46);
+}
+
+/* 绿色调 */
+.bcg {
+    background-color: rgba(52, 148, 105);
+    border-color: rgba(92, 188, 145);
+    color: rgb(34, 39, 46);
+}
+
+/* 灰白色调 */
+.bcw {
+    background-color: rgb(173, 186, 199);
+    border-color: rgba(213, 226, 239);
+    color: rgb(34, 39, 46);
+}
+
+/* a标签去除下划线 */
+a {
+    text-decoration: none;
+}
+
+@media(max-width:800px) {
+    .tab_size {
+        height: 60px;
+        font-size: 30px;
+        line-height: 55px;
+    }
+
+    .tab_control {
+        width: auto;
+    }
+
+    .title {
+        font-size: 30px;
+    }
+
+    .tab_bank {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
