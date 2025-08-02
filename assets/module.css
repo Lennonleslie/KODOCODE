@@ -13,6 +13,7 @@
 
 /* 主页 */
 #body {
+    background-size: cover;
     background-image: url(https://www.yumus.cn/api/?target=img&brand=bing&ua=pc);
     background-color: rgb(34, 39, 46);
     color: rgb(173, 186, 199);
