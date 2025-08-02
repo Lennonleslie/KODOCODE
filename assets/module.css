@@ -1,13 +1,19 @@
 /* 抬头 */
 .title {
+    background-color: rgb(34, 39, 46);
     width: 100%;
-    height: 70px;
+    height: 80px;
     text-align: center;
     font-size: 40px;
+    font-weight: bold;
+    border-radius: 15px;
+    border-style: outset;
+    cursor: pointer;
 }
 
 /* 主页 */
 #body {
+    background-image: url(https://www.yumus.cn/api/?target=img&brand=bing&ua=pc);
     background-color: rgb(34, 39, 46);
     color: rgb(173, 186, 199);
 }
@@ -43,20 +49,20 @@
 
 /* 蓝色调 */
 .bcb {
-    background-color: rgb(143, 206, 195);
+    background-color: rgba(143, 206, 196, 0.75);
     color: rgb(34, 39, 46);
 }
 
 /* 绿色调 */
 .bcg {
-    background-color: rgba(52, 148, 105);
+    background-color: rgba(52, 148, 105, 0.75);
     border-color: rgba(92, 188, 145);
     color: rgb(34, 39, 46);
 }
 
 /* 灰白色调 */
 .bcw {
-    background-color: rgb(173, 186, 199);
+    background-color: rgb(173, 186, 199, 0.75);
     border-color: rgba(213, 226, 239);
     color: rgb(34, 39, 46);
 }
