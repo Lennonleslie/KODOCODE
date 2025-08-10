@@ -28,7 +28,7 @@
 /* 卡片样式 */
 .tab_control {
     width: 100%;
-    margin: 7px;
+    margin: 10px;
     text-align: center;
     font-weight: bold;
     border-radius: 15px;
@@ -41,6 +41,13 @@
     height: 80px;
     font-size: 40px;
     line-height: 75px;
+}
+
+/* 工作卡片区域 */
+.tab_box {
+    margin: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 /* 分割线样式 */
